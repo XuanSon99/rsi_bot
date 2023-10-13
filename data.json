@@ -1,8 +1,458 @@
 [
   {
-    "symbol": "ETHUSDT"
+    "symbol": "BTCUSDT",
+    "time": 0
   },
   {
-    "symbol": "BTCUSDT"
+    "symbol": "ETHUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "ETCUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "XRPUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "BCHUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "QTUMUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "EOSUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "ICXUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "TRXUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "KNCUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "ZILUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "LRCUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "STRAXUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "ZRXUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "ADAUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "BATUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "THETAUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "LOOMUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "WAVESUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "LINKUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "ENJUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "VETUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "MTLUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "IOSTUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "ANKRUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "CHRUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "SXPUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "ARPAUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "CKBUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "YFIUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "UNIUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "UMAUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "COMPUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "RSRUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "AAVEUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "RLCUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "NMRUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "BALUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "RENUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "SANDUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "BELUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "GRTUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "OXTUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "LINAUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "SNXUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "CTSIUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "MANAUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "LPTUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "MKRUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "CELRUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "FRONTUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "SUSHIUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "OCEANUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "COTIUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "BNTUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "XVSUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "OGNUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "ALICEUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "CHZUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "AXSUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "WOOUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "ONTUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "MATICUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "ALGOUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "KLAYUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "BNBUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "XLMUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "AGIXUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "SOLUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "XTZUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "DOTUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "ATOMUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "CTKUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "EGLDUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "MASKUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "CRVUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "1INCHUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "C98USDT",
+    "time": 0
+  },
+  {
+    "symbol": "DYDXUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "FLOWUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "BTTUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "JASMYUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "GALAUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "AVAXUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "GMTUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "DARUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "ACHUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "SFPUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "KSMUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "TUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "DOGEUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "APTUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "HOOKUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "APEUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "OPUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "GMXUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "STXUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "CFXUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "HFTUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "LEVERUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "WLDUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "SEIUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "FXSUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "IMXUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "ARBUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "INJUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "CELOUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "FTMUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "LDOUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "FETUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "RNDRUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "STGUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "SUIUSDT",
+    "time": 0
+  },
+  {
+    "symbol": "MAVUSDT",
+    "time": 0
   }
 ]

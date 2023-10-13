@@ -31,7 +31,7 @@ async def messageHandler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
         if sb:
             await context.bot.send_message(chat_id=-4018224414, text="Symbol đã tồn tại", parse_mode=constants.ParseMode.HTML)
         else:
-            data.append({"symbol": symbol})
+            data.append({"symbol": symbol, "time": 0})
             with open('data.json', 'w', encoding='utf-8') as f:
                 json.dump(data, f, indent=2)
             await context.bot.send_message(chat_id=-4018224414, text="Đã thêm thành công", parse_mode=constants.ParseMode.HTML)
@@ -60,7 +60,7 @@ async def messageHandler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
         for index, item in enumerate(data):
             text += f"{index+1}. {item['symbol']}\n"
 
-        text += "<i>\n- Thêm symbol: /add BTCUSDT\n- Xóa symbol: /rm BTCUSDT</i>"
+        # text += "<i>\n- Thêm symbol: /add BTCUSDT\n- Xóa symbol: /rm BTCUSDT</i>"
         await context.bot.send_message(chat_id=-4018224414, text=text, parse_mode=constants.ParseMode.HTML)
 
 async def callback_minute(context: ContextTypes.DEFAULT_TYPE):
@@ -68,14 +68,34 @@ async def callback_minute(context: ContextTypes.DEFAULT_TYPE):
     with open('data.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
 
-    for item in data:
-        rsi = get_rsi(item['symbol'])
-        if rsi > 70:
-            text=f"🟢 {item['symbol']} quá mua. RSI: {rsi}"
-            await context.bot.send_message(chat_id=-4018224414, text=text, parse_mode=constants.ParseMode.HTML)
-        if rsi < 30:
-            text=f"🔴 {item['symbol']} quá bán. RSI: {rsi}"
-            await context.bot.send_message(chat_id=-4018224414, text=text, parse_mode=constants.ParseMode.HTML)
+    for index, item in enumerate(data):
+
+        try:
+            rsi = get_rsi(item['symbol'])
+            print(index)
+        except:
+            continue
+
+        current_time = int((time.time() * 1000))
+
+        if current_time - item['time'] >= 1800000:  
+
+            if rsi > 70:
+                data[index]['time'] = current_time
+                text=f"🟢 {item['symbol']} quá mua. RSI: {rsi}"
+                await context.bot.send_message(chat_id=-4018224414, text=text, parse_mode=constants.ParseMode.HTML)
+
+            if rsi < 30:
+                data[index]['time'] = current_time
+                text=f"🔴 {item['symbol']} quá bán. RSI: {rsi}"
+                await context.bot.send_message(chat_id=-4018224414, text=text, parse_mode=constants.ParseMode.HTML)
+
+        time.sleep(2)
+
+    with open('data.json', 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2)
+
+        
 
 def get_rsi(symbol):
 
@@ -124,7 +144,7 @@ app.add_handler(MessageHandler(filters.ALL, messageHandler))
 
 job_queue = app.job_queue
 
-job_minute = job_queue.run_repeating(callback_minute, interval=30, first=1)
+job_minute = job_queue.run_repeating(callback_minute, interval=600, first=10)
 
 app.run_polling()
 
